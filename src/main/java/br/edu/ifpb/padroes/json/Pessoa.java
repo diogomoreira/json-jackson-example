@@ -6,7 +6,7 @@ package br.edu.ifpb.padroes.json;
 public class Pessoa {
 
     private int id;
-    private Endereco endereco;
+    private IEndereco endereco;
     private String nome;
     private String cpf;
 
@@ -22,11 +22,11 @@ public class Pessoa {
         this.id = id;
     }
 
-    public Endereco getEndereco() {
+    public IEndereco getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(Endereco endereco) {
+    public void setEndereco(IEndereco endereco) {
         this.endereco = endereco;
     }
 

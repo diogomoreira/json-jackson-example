@@ -24,7 +24,7 @@ public class Loader {
         pessoa.setId(1);
         pessoa.setNome("Diogo");
         pessoa.setCpf("11111111111");
-        Endereco end = new Endereco();
+        IEndereco end = new Endereco();
         end.setRua("Rua Etc, 360");
         end.setBairro("Etc");
         end.setCidade("Cajazeiras");
